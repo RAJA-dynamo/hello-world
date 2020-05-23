@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ADMISSION FORM</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		*
+		{
+			padding: 0;
+			margin: 0;
+		}
+		.english
+		{
+			background-color:blue;
+			height: 280px;
+		}
+		h1
+		{
+			/*background-color: blue;*/
+			font-family: calibri;
+			font-size: 50px;
+			color: white;
+		}
+		h3
+		{
+			/*background-color: blue;*/
+			font-family: calibri;
+			font-size: 25px;
+			color: white;
+			text-align: right;
+			padding-right: 35px;
+		}
+		
+		FORM
+		{
+			margin-left: 120PX;
+		}
+		input{
+			padding-left: 5px;
+			/*color: grey;*/
+		}
+		.fa{
+			color: yellow;
+          }
+          h4
+          {
+          	background-color: blue;
+          	width: 100%;
+          	color: white;
+            font-size: 30px;
+            padding-left: 30px;
+            font-family: calibri;
+          }
+          form
+          {
+          	font-family: calibri;
+
+          }
+          .Address
+          {
+          	padding-right: 3px;
+          	width: 420px;
+          	height: 100px;
+          }
+
+	</style>
+</head>
+<body>
+
+   <div class="english">	
+    <center><h1>Lakshmipat Singhania Academy Bissau <BR><font color="yellow"> Registration Form</h1></font>
+    	<h3>Balrasar - tanwaran P.O. Ranasar Dist.- Churu, Rajasthan - 331001<br><i class="fa fa-phone" aria-hidden="true"></i> 01595-264110 | +91 7428682225 <i class="fa fa-envelope" aria-hidden="true"></i> info@lsabissau.com<br> Note: All '<i class="fa fa-star" aria-hidden="true"></i>' marked are mandatory. Please mention '<font color="yellow">NA</font>' if not applicable. </h3> </center>
+    <br><br><br>
+    </div><br>
+    <h4>Student Details:-</h4>
+    <br><br>
+    <form>
+    	Student First Name:-<BR>
+    	<input type="text" placeholder="Enter First Name" required >
+    	<br><br>
+    	Student Middle Name:-<br>
+    	<input type="text" placeholder="Enter Student Middle Name">
+    	<br><br>
+    	Student Last Name:-<br>
+    	<input type="text" placeholder="Enter Student Last Name" required>
+    	<br><br>
+    	Gender:-<br>
+    	<select id="Gender" required>
+    		<option>-Select Gender-</option>
+    		<option>Male</option>
+    		<option>Female</option>
+        </select><br><br>
+        Date of Birth:-<br>
+        <input type="Date" placeholder="Enter Date of Birth"required>
+        <br><br>
+        Admission Sought in Class:-<br>
+        <select id="class" required>
+        	<option>-Select Class-</option>
+        	<option>LKG (2020-21)</option>
+            <option>UKG (2020-21)</option>
+            <option>I (2020-21)</option>
+            <option>II (2020-21)</option>
+            <option>III (2020-21)</option>
+            <option>IV (2020-21)</option>
+            <option>V (2020-21)</option>
+            <option>VI (2020-21)</option>
+            <option>VII (2020-21)</option>
+            <option>VIII (2020-21)</option>
+            <option>IX (2020-21)</option>
+            <option>X (2020-21)</option>
+            <option>XI (2020-21)</option>
+            <option>XII (2020-21)</option>
+        </select>
+        <br><br>
+        Category:-
+        <select required>
+            <option>-Select category-</option>        	
+            <option>EWS</option>
+            <option>GENERAL</option>
+            <option>OBC</option>
+            <option>RTE</option>
+            <option>SC/ST</option>
+        	<option>STAFF</option>
+        </select>
+        <br><br>   
+        Religion:-<br>
+        <select>
+           <option>-Select Religion-</option> 	            
+           <option>Bhuddhist</option>     
+           <option>Christan</option>     
+           <option>Hindu</option>     
+           <option>Jainism</option>     
+           <option>Muslim</option>     
+           <option>Sikh</option>     
+           <option>Others</option>     
+        </select>         
+        <br><br>     
+        Nationality:-<br>
+           <input type="text" placeholder="Enter Country Name" required>
+        <br><br>
+        Blood Group:-<br>
+        <select>
+            <option>-Select Blood Group-</option>
+            <option>O-</option>
+            <option>O+</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B-</option>
+            <option>B+</option>
+            <option>AB-</option>
+            <option>AB+</option>        	
+        </select>
+        <br><br>
+        Email:-<br>
+            <input type="Email" placeholder="Enter Email" required>
+            <br><br>
+        Mobile No.:-<br>
+        <input type="Number" placeholder="Enter Phone No." required>    
+        <br><br>
+        Mother Tounge:-<br>
+        <input type="text" placeholder="Enter Mother Tounge">
+        <br><br>
+        Student's photo(max-2MB):-<br>
+        <input type="file" onchange="readURL(this);" accept="image/*/" required>
+        <br><br> 
+        </form>
+        <h4>Communication Address</h4>
+        <br><br>
+        <form>
+        	Address:-<br>
+        	<input type="text" class="Address" required>
+        	<br><br>
+            Country:-<br>
+            <input type="text" Placeholder="Enter the country name" required>
+            <br><br>
+            City:-<br>
+            <input type="text" placeholder="Enter City Name" required>
+            <br><br>
+            State:-<br>
+            <input type="text" placeholder="Enter State Name" required>
+            <br><br>
+            Pin Code:-<br>
+            <input type="text" placeholder="Enter Pin Code" required>
+        </form>
+        <br>
+        <h4>Residential Address</h4> 
+        <br><br>
+        <form>
+        	Address:-<br>
+        	<input type="text" class="Address" required>
+        	<br><br>
+            City:-<br>
+            <input type="text" placeholder="Enter City Name" required>
+            <br><br>
+            State:-<br>
+            <input type="text" placeholder="Enter State Name" required>
+            <br><br>
+            Pin Code:-<br>
+            <input type="text" placeholder="Enter Pin Code" required>
+        </form>   
+        <br>
+
+        <h4>Father's Details</h4>
+        <form>
+        <br><br>
+        Father Name:-<br>
+        <input type="text" placeholder="Enter Father Name" required>
+        <br><br>
+        Qualification:-<br>
+        <select>  
+          <option>-Select Qualification-</option>     
+          <option>10th</option>
+          <option>12th</option>
+          <option>P.G.D.C.A</option>
+          <option>IT</option>
+          <option>M.Sc</option>
+          <option>B.Ed</option>
+          <option>M.A</option>
+          <option>M.A(ECO)</option>
+          <option>M.Phil</option>
+          <option>B.Lib</option>
+          <option>BCA</option>
+          <option>M.A. DRAWING</option>
+          <option>B.COM</option>
+          <option>NTT</option>
+          <option>B.A</option>
+          <option>MCA</option>
+          <option>M.A. B.Ed</option>
+          <option>M.Com</option>
+        </select>
+          <br><br>
+        Occupation:-<br>
+        <select>
+         <option>-Select Occupation-</option>        	
+         <option>Business</option>
+         <option>Service</option>
+         <option>Others</option>        	
+        </select>
+        <br><br>
+        Organization:-<br>
+        <input type="text" placeholder="Enter Organization">
+        <br><br>
+        Designation:-<br>
+        <input type="text" placeholder="Enter Designation">
+        <br><br>
+        Annual Income:-<br>
+        <input type="text" placeholder="Enter Annual Income" required>
+        <br><br>
+        Phone (off.):-<br>
+        <input type="number">
+        <br><br>
+        Address (off.):-<br>
+        <input type="text">
+        <br><br>
+        Email:-<br>
+        <input type="Email" placeholder="Enter Email" required>
+        <br><br>
+        Mobile No.:-<br>
+        <input type="number" placeholder="Enter Phone No." required>
+        <br><br>
+        Father's Photo(max-2MB)<br>
+        <input type="file" onchange="readURL(this)" accept="image/*/" required> 
+        </form>
+        <br>
+
+        <h4>Mother's Details</h4>
+        <form>
+        <br><br>
+        Mother Name:-<br>
+        <input type="text" placeholder="Enter Mother Name" required>
+        <br><br>
+        Qualification:-<br>
+        <select>  
+          <option>-Select Qualification-</option>     
+          <option>10th</option>
+          <option>12th</option>
+          <option>P.G.D.C.A</option>
+          <option>IT</option>
+          <option>M.Sc</option>
+          <option>B.Ed</option>
+          <option>M.A</option>
+          <option>M.A(ECO)</option>
+          <option>M.Phil</option>
+          <option>B.Lib</option>
+          <option>BCA</option>
+          <option>M.A. DRAWING</option>
+          <option>B.COM</option>
+          <option>NTT</option>
+          <option>B.A</option>
+          <option>MCA</option>
+          <option>M.A. B.Ed</option>
+          <option>M.Com</option>
+        </select>
+          <br><br>
+        Occupation:-<br>
+        <select>
+         <option>-Select Occupation-</option>        	
+         <option>Business</option>
+         <option>Service</option>
+         <option>Others</option>        	
+        </select>
+        <br><br>
+        Organization:-<br>
+        <input type="text" placeholder="Enter Organization">
+        <br><br>
+        Designation:-<br>
+        <input type="text" placeholder="Enter Designation">
+        <br><br>
+        Annual Income:-<br>
+        <input type="text" placeholder="Enter Annual Income" required>
+        <br><br>
+        Phone (off.):-<br>
+        <input type="number">
+        <br><br>
+        Address (off.):-<br>
+        <input type="text">
+        <br><br>
+        Email:-<br>
+        <input type="Email" placeholder="Enter Email" required>
+        <br><br>
+        Mobile No.:-<br>
+        <input type="number" placeholder="Enter Phone No." required>
+        <br><br>
+        Mother's Photo(max-2MB)<br>
+        <input type="file" onchange="readURL(this)" accept="image/*/" required> 
+        <br><br>
+    <button type="submit">SUBMIT</button>
+    <button type="reset">RESET</button>
+</form>
+
+</body>
+</html>
